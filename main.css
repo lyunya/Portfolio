@@ -160,7 +160,7 @@ hr {
 .projects-column-container a {
   text-decoration: none;
   color: blue;
-  padding: 20px;
+  padding: 5px;
 }
 
 #desktopAvatar {
@@ -199,6 +199,10 @@ hr {
     display: none;
   }
 
+  .projects-column-container a {
+  padding: 20px;
+}
+
   #projects {
     width: 60%;
   }
@@ -225,6 +229,7 @@ hr {
     height: 15vh;
   }
 }
+
 @media screen and (min-width: 1300px) {
   #projects {
     width: 70%;
